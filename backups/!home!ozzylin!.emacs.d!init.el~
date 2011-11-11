@@ -1,0 +1,27 @@
+;;
+;;add for use package eq. M-x package-install
+(require 'package)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(package-initialize)
+;;
+;;open line number
+(global-linum-mode 1)
+;;
+;;open tabbar-mode
+(tabbar-mode 1)
+;;
+;;add my custom el file path
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/my-custom"))
+;;
+;;my custom el setting
+;;(require 'my_color_theme)
+(require 'my_font_set)
+;;
+;;add for use color theme
+(add-to-list 'load-path "/home/ozzylin/.emacs.d/color-theme")
+(require 'color-theme)
+(eval-after-load "color-theme"
+  '(progn
+     (color-theme-initialize)
+          (color-theme-charcoal-black)))
