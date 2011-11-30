@@ -34,5 +34,5 @@
  (color-theme-ld-dark . 1)
  (clojure-mode . 1)
  (clojure-jack-in . 2)
- (cd . 1)
+ (cd . 9)
 )

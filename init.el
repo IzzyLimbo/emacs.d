@@ -17,9 +17,9 @@
 ;;
 ;; ===== open tabbar-ruler =====
 (setq EmacsPortable-global-tabbar 't) ;; open tabbar
-(setq EmacsPortable-global-ruler 't)  ;; open ruler
+;; (setq EmacsPortable-global-ruler 't)  ;; open ruler
 (setq EmacsPortable-popup-menu 't)    ;; open menu
-(setq EmacsPortable-popup-toolbar 't) ;; open toolbar
+;; (setq EmacsPortable-popup-toolbar 't) ;; open toolbar
 (require 'tabbar-ruler)
 ;;
 ;;
