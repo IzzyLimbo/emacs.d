@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (slime-repl-init) "slime-repl" "slime-repl.el"
-;;;;;;  (20156 51062))
+;;;;;;  (20156 52033))
 ;;; Generated autoloads from slime-repl.el
 
 (autoload 'slime-repl-init "slime-repl" "\
@@ -16,7 +16,7 @@
 
 ;;;***
 
-;;;### (autoloads nil nil ("slime-repl-pkg.el") (20156 51062 869236))
+;;;### (autoloads nil nil ("slime-repl-pkg.el") (20156 52033 747020))
 
 ;;;***
 

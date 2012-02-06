@@ -4,7 +4,7 @@
 
 
 ;;;### (autoloads (elisp-slime-nav-find-elisp-thing-at-point elisp-slime-nav-mode)
-;;;;;;  "elisp-slime-nav" "elisp-slime-nav.el" (20155 14461))
+;;;;;;  "elisp-slime-nav" "elisp-slime-nav.el" (20156 51596))
 ;;; Generated autoloads from elisp-slime-nav.el
 
 (autoload 'elisp-slime-nav-mode "elisp-slime-nav" "\
@@ -20,8 +20,8 @@ variable, library or face.
 
 ;;;***
 
-;;;### (autoloads nil nil ("elisp-slime-nav-pkg.el") (20155 14461
-;;;;;;  410316))
+;;;### (autoloads nil nil ("elisp-slime-nav-pkg.el") (20156 51596
+;;;;;;  218808))
 
 ;;;***
 
